@@ -1,0 +1,23 @@
+{
+	"name" : "webazon/ipapi",
+	"description" : "IP Geolocation API. Fast, accurate, reliable.",
+	"type" : "library",
+	"license" : "MIT",
+	"autoload" : {
+		"psr-4" : {
+			"Webazon\\Ipapi\\" : "src/"
+		}
+	},
+	"authors" : [
+		{
+			"name" : "Aleksey Katsef",
+			"email" : "aleksey@katsef.com"
+		}
+	],
+	"minimum-stability" : "dev",
+	"require" : {
+		"php" : ">=8.3",
+		"ext-json" : "*",
+		"symfony/http-foundation" : "^6.0 || ^6.2 || ^7.0"
+	}
+}
